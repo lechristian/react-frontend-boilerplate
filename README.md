@@ -18,3 +18,8 @@ This boilerplate will try to keep up to date with the newest tools (e.g. `react-
     - [ ] Polyfill for older browsers
 - [ ] CSS
   - [ ] [Normalize.css](https://necolas.github.io/normalize.css/)
+- [ ] Redux
+  - [ ] Include basic usage of [Redux](http://redux.js.org/)
+- [ ] Tests
+  - [ ] Set up [Jest](https://facebook.github.io/jest/)
+  - [ ] Write basic test for `Home` Component
