@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "airbnb",
+  ],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true,
+  },
+  "rules": {
+    "quotes": [ 2, "single" ],
+    "semi": [ 2, "always" ],
+    "no-underscore-dangle": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prefer-stateless-function": 0,
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "eslint-plugin-babel",
+  ]
+}
+
