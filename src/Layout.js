@@ -5,7 +5,7 @@ import Home from './Home';
 
 function Layout({ children }) {
   return (
-    <div className="layout">
+    <div>
       {children || <Home />}
     </div>
   );
