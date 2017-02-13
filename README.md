@@ -6,6 +6,18 @@ Built with [Innovative Design](http://innovativedesign.club) web tier in mind.
 
 This boilerplate will try to keep up to date with the newest tools (e.g. `react-hot-loader@3.0.0.beta6`)
 
+### Set Up
+
+With [yarn](https://yarnpkg.com/en/)
+```
+$ yarn install
+```
+
+With npm
+```
+$ npm install
+```
+
 ### TODO
 
 - [ ] Create WebPack config for production bundling
@@ -16,8 +28,8 @@ This boilerplate will try to keep up to date with the newest tools (e.g. `react-
     - [ ] Minification
     - [ ] External Source Map
     - [ ] Polyfill for older browsers
-- [ ] CSS
-  - [ ] [Normalize.css](https://necolas.github.io/normalize.css/)
+- [x] CSS
+  - [x] ~~[Normalize.css](https://necolas.github.io/normalize.css/)~~
 - [ ] Redux
   - [ ] Include basic usage of [Redux](http://redux.js.org/)
 - [ ] Tests

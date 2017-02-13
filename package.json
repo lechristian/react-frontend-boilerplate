@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "lint": "eslint src",
+    "postinstall": "cp node_modules/normalize.css/normalize.css styles/vendor",
     "test": "jest --coverage"
   },
   "repository": {
@@ -52,6 +53,7 @@
     "webpack-dev-server": "^2.3.0"
   },
   "dependencies": {
+    "normalize.css": "^5.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-helmet": "^4.0.0",
