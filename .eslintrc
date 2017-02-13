@@ -8,6 +8,7 @@
     "node": true,
   },
   "rules": {
+    "arrow-parens": 0,
     "quotes": [ 2, "single" ],
     "semi": [ 2, "always" ],
     "no-underscore-dangle": 0,
