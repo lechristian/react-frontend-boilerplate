@@ -28,11 +28,11 @@ $ npm install
     - [ ] Minification
     - [ ] External Source Map
     - [ ] Polyfill for older browsers
-- [ ] Set up [redux-devtools](https://github.com/gaearon/redux-devtools)
 - [x] CSS
   - [x] ~~[Normalize.css](https://necolas.github.io/normalize.css/)~~
 - [x] Redux
   - [x] ~~Include basic usage of [Redux](http://redux.js.org/)~~
+  - [x] Set up [redux-devtools](https://github.com/gaearon/redux-devtools)
 - [ ] Tests
   - [ ] Set up [Jest](https://facebook.github.io/jest/)
   - [ ] Write basic test for `Home` Component

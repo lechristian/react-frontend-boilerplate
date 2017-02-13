@@ -1,20 +1,29 @@
 import React, { Component } from 'react';
-import { Router, Route } from 'react-router';
+import { Router, Route, browserHistory } from 'react-router';
 import { Provider } from 'react-redux';
+import { syncHistoryWithStore } from 'react-router-redux';
 
+import DevTools from './devtools';
 import Layout from './Layout';
-import { store, history } from '../store';
+import generateStore from '../generateStore';
 
 require('../../styles/index.scss');
 
+
+const store = generateStore(DevTools);
+
+const history = syncHistoryWithStore(browserHistory, store);
 
 export default class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Router key={Math.random()} history={history}>
-          <Route path="/" component={Layout} />
-        </Router>
+        <div>
+          <Router key={Math.random()} history={history}>
+            <Route path="/" component={Layout} />
+          </Router>
+          <DevTools />
+        </div>
       </Provider>
     );
   }
