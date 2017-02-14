@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1487046808320" clover="3.2.0">
+  <project timestamp="1487046808320" name="All files">
+    <metrics statements="18" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="4" elements="32" coveredelements="14" complexity="0" loc="18" ncloc="18" packages="2" files="2" classes="2">
+      <package name="actions">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="count.js" path="/Users/christian/Documents/Web/react-frontend-boilerplate/src/actions/count.js">
+          <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="components">
+        <metrics statements="14" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="4"/>
+        <file name="Home.js" path="/Users/christian/Documents/Web/react-frontend-boilerplate/src/components/Home.js">
+          <metrics statements="14" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="4"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="27" count="3" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+          <line num="68" count="0" type="stmt"/>
+          <line num="71" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

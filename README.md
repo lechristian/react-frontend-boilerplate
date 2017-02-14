@@ -18,6 +18,14 @@ With npm
 $ npm install
 ```
 
+### Tests
+
+All tests should be put into `__tests__` with the naming convention `[Filename].test.js`
+
+```
+$ npm run test
+```
+
 ### TODO
 
 - [ ] Create WebPack config for production bundling
@@ -33,7 +41,7 @@ $ npm install
 - [x] Redux
   - [x] ~~Include basic usage of [Redux](http://redux.js.org/)~~
   - [x] Set up [redux-devtools](https://github.com/gaearon/redux-devtools)
-- [ ] Tests
-  - [ ] Set up [Jest](https://facebook.github.io/jest/)
-  - [ ] Write basic test for `Home` Component
+- [x] Tests
+  - [x] Set up [Jest](https://facebook.github.io/jest/)
+  - [x] Write basic test for `Home` Component
 

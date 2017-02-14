@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { increase, decrease } from '../actions/count';
 
 
-class Home extends Component {
+export class Home extends Component {
   constructor(props) {
     super(props);
 
@@ -28,15 +28,17 @@ class Home extends Component {
       <div className="home">
         <h2>Counter: {this.props.number}</h2>
         <button
+          className="btn--increase"
           onClick={() => {
-            this.props.onDecreaseClick(2);
+            this.props.onIncreaseClick(2);
           }}
         >
           Decrease
         </button>
         <button
+          className="btn--decrease"
           onClick={() => {
-            this.props.onIncreaseClick(2);
+            this.props.onDecreaseClick(2);
           }}
         >
           Increase
