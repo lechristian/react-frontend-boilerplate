@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { increase, decrease } from '../actions/count';
 
 
-export class Home extends Component {
+export class HomeComponent extends Component {
   constructor(props) {
     super(props);
 
@@ -48,7 +48,7 @@ export class Home extends Component {
   }
 }
 
-Home.propTypes = {
+HomeComponent.propTypes = {
   number: PropTypes.number.isRequired,
   onTick: PropTypes.func.isRequired,
   onIncreaseClick: PropTypes.func.isRequired,
@@ -75,5 +75,5 @@ const mapDispatchToProps = (dispatch) => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(Home);
+)(HomeComponent);
 

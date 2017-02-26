@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { Home } from '../../src/components/Home';
+import { HomeComponent as Home } from '../../src/components/Home';
 
 
 function setup() {
