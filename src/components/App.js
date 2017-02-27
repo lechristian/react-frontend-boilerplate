@@ -22,7 +22,11 @@ export default class App extends Component {
           <Router key={Math.random()} history={history}>
             <Route path="/" component={Layout} />
           </Router>
-          <DevTools />
+          {
+            process.env.NODE_ENV === 'development' ? (
+              <DevTools />
+            ) : null
+          }
         </div>
       </Provider>
     );

@@ -28,12 +28,12 @@ $ npm run test
 
 ### TODO
 
-- [ ] Create WebPack config for production bundling
-  - [ ] CSS
-    - [ ] [Extract to file](https://github.com/webpack-contrib/extract-text-webpack-plugin)
-    - [ ] [CSS Nano](http://cssnano.co/)
-  - [ ] JS
-    - [ ] Minification
+- [-] Create WebPack config for production bundling
+  - [x] CSS
+    - [x] [Extract to file](https://github.com/webpack-contrib/extract-text-webpack-plugin)
+    - [x] [CSS Nano](http://cssnano.co/)
+  - [x] JS
+    - [x] Minification
     - [ ] External Source Map
     - [ ] Polyfill for older browsers
 - [x] CSS
